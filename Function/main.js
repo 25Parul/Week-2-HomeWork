@@ -79,10 +79,6 @@ console.log(count)
 const returnIsChase =(name) => {
     if (name.toLowerCase() === "chase") {
         return true
-    } else if (name.toUpperCase() === "CHASE") {
-        return true
-    } else if (name === "Chase") {
-        return true
     } else {
         return false
     }
@@ -91,6 +87,7 @@ const returnIsChase =(name) => {
 console.log(returnIsChase("Chase"))
 console.log(returnIsChase("chase"))
 console.log(returnIsChase("CHASE"))
+console.log(returnIsChase("CHasE"))
 console.log(returnIsChase("john"))
 
 // Make a variable called class that is an array ["Sally", "Sam", "Frodo", "Gandalf", "Eragorn", "Gimley"]
