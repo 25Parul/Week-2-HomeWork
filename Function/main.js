@@ -158,7 +158,7 @@ console.log(class1)
 const extraStudents = ["Emma", "Olivia", "Ava", "Isabella", "Sophia", "Mia", "Charlotte", "Amelia", "Evelyn", "Harper"];
 
 const fillClass = () => {
-    while(class1.length <15) {
+    while(class1.length < 15) {
         var student = extraStudents.shift()
         class1.push(student)
         console.log(class1)
